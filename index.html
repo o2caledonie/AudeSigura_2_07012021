@@ -2,10 +2,92 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Titre</title>
+        <title>Reservia</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     </head>
 
     <body>
+
+        <header class="header">
+
+                <nav>
+
+                    <div class=home>
+                        <div class="flex-home">
+                            <a href="index.html">
+                                <span class=logo>
+                                    <img src="images/logo/Reservia.svg" alt="Logo Reservia"></span></a></div>
+                        <div class="flex-sign">
+                            <a class=sign-up href="#sign-up">S'inscrire</a></div>
+                    </div>
+                    
+                    <div class=items>
+                        <div class="flex-item">        
+                            <a class="accomodations" href="#accomodations">Hébergements</a></div>
+                        <div class="flex-item">
+                            <a class="activities" href="#activities">Activités</a></div>
+                    </div>
+                              
+                </nav>  
+           
+        </header>
+
+            <!-- Searchbox -->
+            
+        <div class="searchbox-container">
+            <h1 class="sb-searchbox_title">
+                <span class="sb-searchbox_title-text">
+                    Trouvez votre hébergement pour des vacances de rêve</span></h1>
+  
+            <h2 class="sb-searchbox_subtitle-text">
+                En plein centre-ville ou en pleine nature</h2>
+    
+            <form id="searchbox" method="post" action="#">
+                    <span id="icon_map"></span>
+                    <input type="text" placeholder="Marseille, France" required>
+                    <button type="submit"><span class="icon_search"></span></button>
+            </form>
+              
+            <!-- Filtres -->
+        <div class="filters-container">
+
+            <div class="filters_title">
+                <h1>Filtres</h1>
+            </div> 
+
+            <div class="filters">
+
+                <button class=filter-button>
+                    <div class="filter-icon">
+                        <span class=icon_budget></span>
+                        <span class="filter-text">Économique</span>
+                    </div>
+                </button>
+
+                <button class=filter-button>
+                    <div class="filter-icon">
+                        <span id=icon_ambient></span>
+                        <span class="filter-text">Familial</span>
+                    </div>
+                </button>
+
+                <button class=filter-button>
+                    <div class="filter-icon">
+                        <span id=icon_romance></span>
+                        <span class="filter-text">Romantique</span>
+                    </div>
+                </button>
+
+                <button class=filter-button>
+                    <div class="filter-icon">
+                        <span id=icon_pet></span>
+                        <span class="filter-text">Animaux autorisés</span>
+                    </div>
+                </button>
+     
+        </div>
     
     </body>
 </html>
