@@ -5,7 +5,7 @@
         <title>Reservia</title>
         <link rel="stylesheet" href="style.css" />
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -34,20 +34,26 @@
            
         </header>
 
-            <!-- Searchbox -->
-            
-        <div class="searchbox-container">
-            <h1 class="sb-searchbox_title">
-                <span class="sb-searchbox_title-text">
-                    Trouvez votre hébergement pour des vacances de rêve</span></h1>
+        <!-- Section 1 -->
   
-            <h2 class="sb-searchbox_subtitle-text">
-                En plein centre-ville ou en pleine nature</h2>
-    
+        <section class="searchbox-container">
+
+            <div class="sb-text_block">
+                <div class="sb-title_box">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                </div>
+                <div class="sb-subtitle_box">
+                    <h2>En plein centre-ville ou en pleine nature</h2>
+                </div>
+            </div>
+
             <form id="searchbox" method="post" action="#">
-                    <span id="icon_map"></span>
-                    <input type="text" placeholder="Marseille, France" required>
-                    <button type="submit"><span class="icon_search"></span></button>
+                <div class="sb-content">
+                    <span class="icon_map"><i class="fas fa-map-marker-alt"></i></span>
+                    <span><input type="text" placeholder="Marseille, France" required></span>
+                    <span class=button_submit><button type="submit">
+                        <span class="icon_search"></span></button></span>
+                </div>
             </form>
               
             <!-- Filtres -->
@@ -87,7 +93,7 @@
                     </div>
                 </button>
      
-        </div>
+            </section>
     
     </body>
 </html>
