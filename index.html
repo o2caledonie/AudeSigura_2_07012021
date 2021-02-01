@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Reservia</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header class="header">
+
+                <nav>
+
+                    <div class="home">
+                        <div class="flex-home">
+                            <a href="index.html">
+                                <span class="logo">
+                                    <img src="img/logo/Reservia.svg" alt="Logo Reservia"></span></a></div>
+                        <div class="flex-sign">
+                            <a class="sign-up" href="#sign-up">S'inscrire</a></div>
+                    </div>
+                    
+                    <div class="items">
+                        <div class="flex-item">        
+                            <a class="accomodations" href="#accomodations">Hébergements</a></div>
+                        <div class="flex-item">
+                            <a class="activities" href="#activities">Activités</a></div>
+                    </div>
+                              
+                </nav>  
+           
+        </header>
+
+        <!-- Section 1 -->
+  
+        <section class="searchbox-container">
+
+            <div class="sb-text_block">
+                <div class="sb-title_box">
+                    <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                </div>
+                <div class="sb-subtitle_box">
+                    <h2>En plein centre-ville ou en pleine nature</h2>
+                </div>
+            </div>
+
+            <form id="searchbox" method="post" action="#">
+                <div class="sb-content">
+                    <span class="icon_map"><i class="fas fa-map-marker-alt"></i></span>
+                    <span><input type="text" placeholder="Marseille, France" required></span>
+                    <span class=button_submit><button type="submit">
+                        <span class="icon_search"></span></button></span>
+                </div>
+            </form>
+              
+            <!-- Filtres -->
+        <div class="filters-container">
+
+            <div class="filters_title">
+                <h1>Filtres</h1>
+            </div> 
+
+            <div class="filters">
+
+                <button class="filter-button">
+                    <div class="filter-icon">
+                        <span class="icon_budget"></span>
+                        <span class="filter-text">Économique</span>
+                    </div>
+                </button>
+
+                <button class="filter-button">
+                    <div class="filter-icon">
+                        <span id="icon_ambient"></span>
+                        <span class="filter-text">Familial</span>
+                    </div>
+                </button>
+
+                <button class="filter-button">
+                    <div class="filter-icon">
+                        <span id="icon_romance"></span>
+                        <span class="filter-text">Romantique</span>
+                    </div>
+                </button>
+
+                <button class="filter-button">
+                    <div class="filter-icon">
+                        <span id="icon_pet"></span>
+                        <span class="filter-text">Animaux autorisés</span>
+                    </div>
+                </button>
+     
+            </section>
+    
+    </body>
+</html>
