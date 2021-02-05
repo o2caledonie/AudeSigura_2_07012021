@@ -1,0 +1,109 @@
+@media only screen and (min-width:480px){
+ 
+    /* Header */
+
+    
+        /* Nav */
+
+        /* Search */
+
+            /* Searchbox */
+
+            /* Filters */
+
+            .filters{
+                align-items:flex-start;
+                justify-content:space-between;
+    
+
+            /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+
+        /* Marseille hotels */
+
+
+    /* Section2 */
+
+        /* Activities */
+
+
+    /* Footer */
+
+
+}
+
+@media only screen and (min-width:980px){
+ 
+    /* Header */
+
+    .header{
+        background-color: gold;
+    }
+
+        /* Nav */
+
+        /* Search */
+
+            /* Searchbox */
+
+            /* Filters */
+
+            /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+
+        /* Marseille hotels */
+
+
+    /* Section2 */
+
+        /* Activities */
+
+
+    /* Footer */
+
+
+}
+
+@media screen and (min-width:1280px){
+
+    /* Header */
+
+    .header{
+        background-color: blueviolet;
+    }
+
+    /* Nav */
+
+    /* Search */
+
+        /* Searchbox */
+
+        /* Filters */
+
+        /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+
+        /* Marseille hotels */
+
+
+    /* Section2 */
+
+        /* Activities */
+
+
+    /* Footer */
+
+
+}
