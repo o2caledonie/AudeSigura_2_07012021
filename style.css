@@ -21,8 +21,8 @@ a{
 
 h1{
   font-weight: 800;
-  font-size: 22px;
-  margin:1px 0px 10px;
+  font-size: 21px;
+  margin:0px 0px 10px;
 }
 
 h2{
@@ -45,7 +45,7 @@ h4{
 
 p{
   font-weight:600;
-  font-size:16px;
+  font-size:15px;
   margin:0px;
   padding:0px;
 }
@@ -127,7 +127,7 @@ li:hover{
     align-items: center;
     font-size: 1.1em;
     border-bottom: 4px solid #f2f2f2;
-    padding: 20px 0px 20px;
+    padding: 1em 0em 1em;
   }
 
   .flex-item:first-child{
@@ -156,7 +156,7 @@ li:hover{
   /* Search */
 
   .searchbox-container{
-    margin:30px;
+    margin:1.6em;
   }
 
     /* Searchbox */
@@ -166,81 +166,89 @@ li:hover{
 
     .sb-title_box{
       display: flex;
-      width:90%;
+      width:100%;
     }
 
     .sb-subtitle_box{
       display: flex;
-      width:90%;
+      width:100%;
     }
 
     #searchbox{
-        display:inline-flex;
-        width:100%;
-        border:2px solid #f2f2f2;
-        border-radius:40px;
-        margin: 20px 0px 40px;
+      display:block;
+      max-width:400px;
+      border:2px solid #f2f2f2;
+      border-radius:20px;
+      margin: 30px 0px 30px;
+    }
+
+    .searchbox-content{
+      display:flex;
+      width:100%;
     }
 
     #searchbox input{
-      border:none;
+      flex: 1;
+      border:0;
       margin:0px;
+      padding-left:1em;
       font-weight: bold;
-      font-size: 1.2em;
+      font-size: 1.1em;
     }
 
     .icon-map{
       background-color:#f2f2f2;
-      padding: 1rem;
-      justify-content: center;
-      align-items: center;
-      width:100px;
-      border-bottom-left-radius: 40px;
-      border-top-left-radius: 40px;
+      width:fit-content;
+      border-bottom-left-radius: 15px;
+      border-top-left-radius: 15px;
+      padding: 1em 1.2em 1em;
     }
 
     .icon-map .fas{
       color:black;
-      font-size: 1.8em;  
+      font-size: 1.2em;  
     }
 
     .searchButton{
       background: #0065fc;
-      border: 0;
+      border:0px;
       color: white;
       padding: 1em;
-      border-radius: 40px;
+      border-radius: 15px;
       font-size: 1em;
-      cursor:pointer;
+      cursor:pointer; 
     }
 
     /* Filters */
 
+    .filters-container{
+      display:block;
+      max-width:800px;
+    }
+
     .filters_title{
       display: flex;
-      width:90%;
-      font-size:1.6em;
+      width:fit-content;
+      font-size:1.2em;
       font-weight:800;
-      margin:40px 0 40px;
+      margin:20px 0 20px;
     }
 
     .filters{
       display: flex;
-      width: 100%;
+      max-width: 100%;
       flex-flow: row wrap;
       justify-content:flex-start;
-      align-content:flex-start;
-      align-items:flex-start;
     }
 
     .filter-button{
       display:flex;
       width:fit-content;
-      height:137px;
-      border:6px solid #f2f2f2;
+      border:3px solid #f2f2f2;
       background-color: #ffffff;
       padding:0px;
-      margin-bottom: 30px;
+      margin-right: 10px;
+      margin-bottom: 10px;
       border-radius:70px;
       cursor:pointer;
       justify-content: center;
@@ -262,7 +270,7 @@ li:hover{
       display:inline-flex;
       background-color:#deebff;
       border:10px solid transparent;
-      padding:53px;
+      padding:1em;
       justify-content: center;
       align-items: center;
       border-radius: 70px;
@@ -272,13 +280,14 @@ li:hover{
 
     .filter-icon .fas{
       color:#0065fc;
-      font-size: 3.5em;
+      font-size: 1em;
     }
 
     .filter-text{
-      font-size: 3em;
+      font-size: 1.1em;
       font-weight:800;
-      padding: 20px 40px 20px;
+      padding-left:10px;
+      padding-right:15px;
       border:none;
       cursor:pointer;
     }
@@ -288,24 +297,27 @@ li:hover{
     /* Information */
 
     .note{
-      display: inline-flex;
-      margin:40px 0px 40px;
+      display: flex;
+      margin:20px 0px 20px;
+      align-items:flex-start
     }
 
     .info-icon{
-      display:inline-flex;
-      border: 4px solid #f2f2f2;
-      padding:30px;
-      margin-right:20px;
-      justify-content: center;
-      align-items: center;
+      display:flex;
+      border: 2px solid #f2f2f2;
+      padding:0.8em;
+      margin-right:10px;
       border-radius:50px;
-      width:30px;
-      height:30px;
+      width:0.8em;
+      height:0.8em;
+      align-items: center;
+      justify-content: center;
+
     }
 
     .info-icon .fas{
       color:#0065fc;
+      size:1em;
     }
 
 /* Section 1 */
@@ -314,7 +326,7 @@ li:hover{
 
   .popular-section{
     background-color: #f2f2f2;
-    padding: 60px 50px 60px;
+    padding:2em 1.6em 2em;
   }
 
   .title-section{
@@ -322,7 +334,7 @@ li:hover{
     justify-content: space-between;
     width:100%;
     align-items: baseline;
-    margin:20px 0px 30px;
+    margin-bottom: 1.2em;
   }
 
   .icon-chart{
@@ -334,9 +346,9 @@ li:hover{
   .block{
     display:block;
     background-color:#ffffff;
-    border-radius:50px;
-    padding:15px;
-    margin-bottom:40px;
+    border-radius:2em;
+    padding:0.4em;
+    margin-bottom:20px;
     -webkit-box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212); 
     -moz-box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212);  
     box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212);  
@@ -346,17 +358,18 @@ li:hover{
     display:flex;
     flex-flow:row wrap;
     justify-content:stretch;
-    border-radius:40px;
-    height:13em;
+    border-radius:2em;
+    height:9em;
   }
 
   .hotel1-img{
     width:40%;
+    height:100%;
     background-image: url(img/hotels/small/hotel1.jpg);
     background-position: center 60%;
     background-repeat: no-repeat;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
   }
 
   .hotel2-img{
