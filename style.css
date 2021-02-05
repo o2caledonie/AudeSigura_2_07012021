@@ -357,20 +357,18 @@ li:hover{
   .hotel{
     display:flex;
     flex-flow:row wrap;
-    justify-content:stretch;
     border-radius:2em;
     height:9em;
   }
 
-  .hotel1-img{
+  .hotel-img{
     width:40%;
     height:100%;
-    background-image: url(img/hotels/small/hotel1.jpg);
-    background-position: center 60%;
-    background-repeat: no-repeat;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    overflow:hidden;
   }
+
 
   .hotel2-img{
     width:40%;
