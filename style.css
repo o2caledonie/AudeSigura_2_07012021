@@ -27,13 +27,13 @@ h1{
 
 h2{
   font-weight: 800;
-  font-size: 14px;
-  margin:0px 0px 20px;
+  font-size: 15px;
+  margin:0;
 }
 
 h3{
   font-weight: 600;
-  font-size:12px;
+  font-size:13px;
   margin:0px;
 }
 
@@ -326,7 +326,7 @@ li:hover{
 
   .popular-section{
     background-color: #f2f2f2;
-    padding:2em 1.6em 2em;
+    padding:2em 1.8em 2em;
   }
 
   .title-section{
@@ -334,7 +334,7 @@ li:hover{
     justify-content: space-between;
     width:100%;
     align-items: baseline;
-    margin-bottom: 1.2em;
+    margin-bottom: 0.8em;
   }
 
   .icon-chart{
@@ -346,7 +346,7 @@ li:hover{
   .block{
     display:block;
     background-color:#ffffff;
-    border-radius:2em;
+    border-radius:20px;
     padding:0.4em;
     margin-bottom:20px;
     -webkit-box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212); 
@@ -357,52 +357,51 @@ li:hover{
   .hotel{
     display:flex;
     flex-flow:row wrap;
-    border-radius:2em;
-    height:9em;
+    height:8.5em;
   }
 
   .hotel-img{
+    display: flex;
+    flex-flow: row wrap;
+    position:relative;
     width:40%;
     height:100%;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
     overflow:hidden;
   }
 
-
-  .hotel2-img{
-    width:40%;
-    background-image: url(img/hotels/small/hotel2.jpg);
-    background-position: center 60%;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-  }
-
-  .hotel3-img{
-    width:40%;
-    background-image: url(img/hotels/small/hotel3.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size:100%;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
+  .img-container{
+    display:block;
+    width: 100%;
   }
 
   .hotel-text{
     display:flex;
     flex-flow: column;
     width:60%;
-    padding:0px 50px 20px;
+    height:100%;
+    padding:0.7em 1.2em 0.7em;
     border-top-right-radius: 40px;
     border-bottom-right-radius: 40px;
   }
 
+  .hotel-name{
+    margin-bottom:0.4em;
+  }
+
+  .hotel-price{
+    margin-bottom: 0.5em;
+  }
+
   .hotel-rating{
-    margin-top:130px;
+    display:inline-flex;
+    margin-top:2.2em;
   }
 
   .fa-star{
     color:#f2f2f2;
+    font-size: 0.8em;
   }
 
   .checked{
@@ -412,96 +411,34 @@ li:hover{
   /* Marseille hotels */
 
   .marseille-section{
-    background-color: #ffffff;
-    padding: 60px 50px 60px;
+    padding:2em 1.8em 2em;
   }
 
   .marseille-section .hotel{
+    flex-flow:row wrap;
+    height:12em;
+  }
+
+  .marseille-section .hotel-img{
     display:flex;
-    border-radius:40px;
-    height:17em;
+    position:relative;
+    width:100%;
+    height:60%;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 0px;
   }
 
   .marseille-section .hotel-text{
     display:flex;
     width:100%;
+    height: auto;
+    padding-left:0.6em;
   }
 
   .marseille-section .hotel-rating{
-    margin-top:20px;
-  }
-  
-  .hotel4-img{
-    display:flex;
-    width:100%;
-    height:60%;
-    background-image: url(img/hotels/medium/hotel4.jpg);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-    background-size:100%;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
+    margin-top:0;
   }
 
-  .hotel5-img{
-    display:flex;
-    width:100%;
-    height:60%;
-    background-image: url(img/hotels/medium/hotel5.jpg);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-    background-size:100%;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-  }
-
-  .hotel6-img{
-    display:flex;
-    width:100%;
-    height:60%;
-    background-image: url(img/hotels/medium/hotel6.jpg);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-    background-size:100%;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-  }
-
-  .hotel7-img{
-    display:flex;
-    width:100%;
-    height:60%;
-    background-image: url(img/hotels/medium/hotel7.jpg);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-    background-size:100%;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-  }
-
-  .hotel8-img{
-    display:flex;
-    width:100%;
-    height:60%;
-    background-image: url(img/hotels/medium/hotel8.jpg);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-    background-size:100%;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-  }
-
-  .hotel9-img{
-    display:flex;
-    width:100%;
-    height:60%;
-    background-image: url(img/hotels/medium/hotel9.jpg);
-    background-position: center 50%;
-    background-repeat: no-repeat;
-    background-size:100%;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
-  }
 
   .more{
     color:black;
