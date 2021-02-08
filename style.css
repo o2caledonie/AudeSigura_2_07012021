@@ -346,7 +346,6 @@ li:hover{
 
   .block{
     display:flex;
-    flex-flow:row wrap;
     background-color:#ffffff;
     border-radius:20px;
     padding:0.4em;
@@ -356,8 +355,8 @@ li:hover{
     -moz-box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212);  
     box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212);  
     height:auto;
-    min-height: 9em;
-    max-width: 375px;
+    max-height: 9em;
+    max-width: 321px;
   }
 
   .hotel-img{
@@ -414,15 +413,14 @@ li:hover{
   }
 
   .marseille-section .block {
-    display:flex;
-    flex-flow:column wrap;
-    min-height: 12em;
-    max-width: 375px;
+    display:block;
+    max-height: 12em;
+    max-width: 321px;
   }
   .marseille-section .hotel-img{
     display:flex;
     width:100%;
-    height:9em;
+    height:7em;
     border-top-right-radius: 15px;
     border-bottom-left-radius: 0px;
   }
@@ -430,9 +428,8 @@ li:hover{
   .marseille-section .hotel-text{
     display:flex;
     width:100%;
-    height: auto;
-    padding-left:0.6em;
-    padding-bottom: 0.2em;
+    height: 60%;
+    padding:0.4em 0.7em 0.4em;
   }
 
   .marseille-section .hotel-rating{
@@ -458,31 +455,22 @@ li:hover{
     padding:2em 1.8em 1.8em;
   }
 
-  .activity-block{
-    display:block;
-    background-color:#ffffff;
-    border-radius:20px;
-    padding:0px;
-    margin-bottom:20px;
-    -webkit-box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212); 
-    -moz-box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212);  
-    box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212);
-  }
-
-  .activity{
-    display:flex;
-    flex-flow:column wrap;
-    height:12em;
+  .activities-section .block{
+    display: block;
+    max-height: 12em;
+    max-width: 321px;
+    padding:0em;
   }
 
   .activity-img{
     display:flex;
+    flex-flow:row wrap;
     position:relative;
     width:100%;
-    height:75%;
-    border-top-left-radius: 15px;
+    height:9em;
     border-top-right-radius: 15px;
-    overflow: hidden;
+    border-top-left-radius: 15px;
+    overflow:hidden;
   }
 
   .activity-name{
