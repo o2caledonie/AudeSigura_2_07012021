@@ -10,10 +10,6 @@
             /* Searchbox */
 
             /* Filters */
-
-            .filters{
-                align-items:flex-start;
-                justify-content:space-between;
     
 
             /* Information */
@@ -23,6 +19,12 @@
 
         /* Popular hotels */
 
+        .popular-section{
+            max-width:414px;
+            border-radius:20px;
+            margin: auto;
+        }
+
         /* Marseille hotels */
 
 
@@ -33,10 +35,13 @@
 
     /* Footer */
 
+    .footer{
+        padding-left:80px;
+    }
 
 }
 
-@media only screen and (min-width:980px){
+@media only screen and (min-width:764px){
  
     /* Header */
 
@@ -46,11 +51,20 @@
 
         /* Nav */
 
+        .nav{
+            flex-flow:row;
+        }
+
+
         /* Search */
 
             /* Searchbox */
 
             /* Filters */
+
+            .filters{
+                justify-content: space-between;
+            }
 
             /* Information */
 
@@ -61,6 +75,100 @@
 
         /* Marseille hotels */
 
+        .marseille-section .title-section{
+            justify-content: center;
+        }
+
+        .hotel-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em 4.5em 0em;
+        }
+
+        .marseille-section .map {
+            display:block;
+            max-height: 14em;
+            min-width: 280px;
+          }
+
+        .more{
+            text-align: center;
+        }
+
+    /* Section2 */
+
+        /* Activities */
+
+        .activities-section .title-section{
+            justify-content: center;
+        }
+
+        .activity-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em 4.5em 0em;
+        }
+
+        .activities-section .map{
+            display:block;
+            max-height: 14em;
+            min-width: 280px;
+        }
+
+    /* Footer */
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        padding:0em 2em 0em;
+
+}
+
+@media screen and (min-width:1024px){
+
+    /* Header */
+
+    .header{
+        background-color: rgb(43, 168, 226);
+    }
+
+    /* Nav */
+
+    /* Search */
+
+        /* Searchbox */
+
+        /* Filters */
+
+        /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+
+        /* Marseille hotels */
+
+        .marseille-section{
+            background-color: #f2f2f2;
+            border-radius: 20px;
+            margin: 2em 1em 2em;
+            padding:2em 0em 1.8em;
+        }
+
+        .hotel-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em 2em 0em;
+        }
+
+        .marseille-section .map {
+            display:block;
+            max-height: 14em;
+            min-width: 280px;
+          }
+        
+
 
     /* Section2 */
 
@@ -69,8 +177,8 @@
 
     /* Footer */
 
-
 }
+
 
 @media screen and (min-width:1280px){
 
@@ -104,6 +212,5 @@
 
 
     /* Footer */
-
 
 }
