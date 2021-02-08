@@ -83,19 +83,17 @@ li:hover{
 
   .nav{
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: row wrap;
+    justify-content:stretch
     width:100%;
     margin:20px 0px 0px;
   }
 
-  .home{
-    display:flex;
-    width:100%;
-    padding: 0px 30px 0px;
-  }
 
   .flex-home{
-    width:50%;   
+    width:50%;
+    padding-left: 2em; 
+    order:1;  
   }
 
   .logo img{
@@ -108,6 +106,8 @@ li:hover{
     width:50%;
     justify-content: flex-end;
     align-items:center;
+    padding-right: 2em;
+    order:2;
   } 
 
   .sign-up{
@@ -119,6 +119,8 @@ li:hover{
   .items{
       display:flex;
       flex-wrap: row wrap;
+      width:100%;
+      order:3;
   }
 
   .flex-item{
@@ -137,11 +139,6 @@ li:hover{
 
   .accomodations{
     color:#0065fc;
-    padding-left:20px;
-  }
-
-  .activities{
-    padding-right:20px;
   }
 
   .activities:hover{
