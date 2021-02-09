@@ -25,6 +25,15 @@
             margin: auto;
         }
 
+        .title-section{
+            max-width:max-content;
+        }
+
+        .icon-chart{
+            padding-left:2em;
+        }
+        
+
         /* Marseille hotels */
 
 
@@ -110,16 +119,54 @@
 
         /* Popular hotels */
 
+        .popular-section{
+            max-width:100%;
+            border-radius: 0;  
+        }
+
+        .popular-section .title-section{
+            max-width: 280px;
+        }
+
+        .popular-section .hotel-maps-section{
+            display:flex;
+            flex-flow: column wrap;
+            margin: 0em 2.5em 0em;
+            max-height:358px;
+        }
+
+        .map{
+            min-width:321px;
+        }
+
+        .hotel1{
+            height:285px;
+            max-height: max-content;
+            flex-flow: row wrap;
+        }
+
+        .hotel1 .hotel-img{
+            position:relative;
+            width:100%;
+            height:60%;
+            border-bottom-left-radius: 0px;
+            border-top-right-radius: 15px;
+        }
+
+        .hotel1 .hotel-text{
+            width:max-content;
+            height:max-content;
+
         /* Marseille hotels */
 
         .marseille-section .title-section{
             justify-content: center;
         }
 
-        .hotel-maps-section{
+        .marseille-section .hotel-maps-section{
             display:flex;
             flex-flow:row wrap;
-            margin: 0em 4.5em 0em;
+            margin: 0em 2.5em 0em;
         }
 
         .marseille-section .map {
