@@ -55,7 +55,7 @@
     /* Header */
 
     .header{
-        padding: 1em 2em 1em;
+        padding: 1em auto 1em;
     }
 
         /* Nav */
@@ -108,10 +108,7 @@
 
             /* Filters */
 
-            .filters{
-                justify-content: space-between;
-            }
-
+    
             /* Information */
 
 
@@ -121,7 +118,8 @@
 
         .popular-section{
             max-width:100%;
-            border-radius: 0;  
+            border-radius: 0;
+            padding: 2em 6% 1.8em;  
         }
 
         .popular-section .title-section{
@@ -131,12 +129,13 @@
         .popular-section .hotel-maps-section{
             display:flex;
             flex-flow: column wrap;
-            margin: 0em 2.5em 0em;
+            margin: 0em;
             max-height:358px;
+            justify-content: space-between;
         }
 
         .map{
-            min-width:321px;
+            width:300px;
         }
 
         .hotel1{
@@ -156,23 +155,22 @@
         .hotel1 .hotel-text{
             width:max-content;
             height:max-content;
+        }
 
         /* Marseille hotels */
 
-        .marseille-section .title-section{
-            justify-content: center;
-        }
 
         .marseille-section .hotel-maps-section{
             display:flex;
             flex-flow:row wrap;
-            margin: 0em 2.5em 0em;
+            margin: 0em;
+            justify-content: space-between;
         }
 
         .marseille-section .map {
             display:block;
             max-height: 14em;
-            min-width: 280px;
+            width: 320px;
           }
 
         .more{
@@ -190,7 +188,7 @@
         .activity-maps-section{
             display:flex;
             flex-flow:row wrap;
-            margin: 0em 4.5em 0em;
+            margin: 0em auto 0em;
         }
 
         .activities-section .map{
@@ -209,13 +207,9 @@
 
 }
 
-@media screen and (min-width:1024px){
+@media screen and (min-width:996px){
 
     /* Header */
-
-    .header{
-        background-color: rgb(43, 168, 226);
-    }
 
     /* Nav */
 
@@ -232,26 +226,63 @@
 
         /* Popular hotels */
 
+        .popular-section{
+            border-radius: 20px;
+            margin: 2em 1.6em 2em;
+            padding:2em 0em 1.8em;
+        }
+
+        .popular-section .hotel-maps-section{
+            display:flex;
+            flex-flow: row wrap;
+            margin: 0em;
+            max-height:358px;
+            justify-content: space-between;
+        }
+
+        .popular-section .map{
+            width:300px;
+            height:150px;
+        }
+
+        .hotel1 .hotel-img{
+            position:relative;
+            width:40%;
+            height:100%;
+            border-bottom-left-radius: 15px;
+            border-top-right-radius: 0px;
+        }
+
+        .hotel1 .hotel-text{
+            width:60%;
+            height:100%;
+        }
+
         /* Marseille hotels */
 
         .marseille-section{
             background-color: #f2f2f2;
             border-radius: 20px;
-            margin: 2em 1em 2em;
+            margin: 2em 1.6em 2em;
             padding:2em 0em 1.8em;
         }
 
-        .hotel-maps-section{
+        .marseille-section .hotel-maps-section{
             display:flex;
             flex-flow:row wrap;
-            margin: 0em 2em 0em;
+            justify-content: space-between;
+            margin: 0em;
         }
 
         .marseille-section .map {
-            display:block;
-            max-height: 14em;
-            min-width: 280px;
+            display: block;
+            height:auto;
+            width:290px;
           }
+
+        .marseille-section .hotel-img{
+            height:8.5em;
+        }
         
 
 
@@ -259,7 +290,25 @@
 
         /* Activities */
 
+        .activities-section {
+            background-color: #f2f2f2;
+            border-radius: 20px;
+            margin: 2em 1.6em 2em;
+            padding:2em 0em 1.8em;
+        }
 
+        .activity-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em 3.5em 0em;
+        }
+
+        .activities-section .map{
+            display:block;
+            max-height: 14em;
+            min-width: 280px;
+        }
+        
     /* Footer */
 
 }
@@ -269,9 +318,6 @@
 
     /* Header */
 
-    .header{
-        background-color: blueviolet;
-    }
 
     /* Nav */
 
