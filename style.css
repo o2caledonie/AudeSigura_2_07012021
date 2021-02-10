@@ -235,7 +235,6 @@ li:hover{
 
     .filters{
       display: flex;
-      max-width: 100%;
       flex-flow: row wrap;
       justify-content:flex-start;
     }

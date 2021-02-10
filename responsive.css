@@ -52,6 +52,34 @@
 
 @media only screen and (min-width:764px){
  
+body{
+    font-size: smaller;
+}
+
+h1{
+    font-size: 19px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 12px;
+}
+
+h4{
+    font-size: medium;
+}
+
+li{
+font-size: 13px;
+}
+
+p{
+    font-size: 14px;
+}
+
     /* Header */
 
     .header{
@@ -64,10 +92,13 @@
             flex-flow:row;
             justify-content: flex-end;
             align-items: center;
+            margin:1.6em 1.6em 0em;
+    
         }
 
         .flex-home{
             width:100%;
+            padding-left:0em;
         }
 
         .items{
@@ -106,6 +137,9 @@
 
             /* Filters */
 
+            .filters_title{
+                font-size: 1.1em;
+            }
     
             /* Information */
 
@@ -319,18 +353,54 @@
 
 @media screen and (min-width:1024px){
 
+/* h1{
+    font-size: 17px;
+}
+
+h2{
+    font-size: 13px;
+}
+
+h3{
+    font-size: 10px;
+} */
    
     /* Header */
 
 
     /* Nav */
 
+    .nav{
+        margin:2em 3em 0em;
+    }
+    
+
     /* Search */
 
+    .searchbox-container{
+    margin:0.5em 3em 2em;
+
+    }
         /* Searchbox */
 
         /* Filters */
 
+        .filters-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: stretch;
+            max-width:80%;
+        }
+
+        .filters{
+            justify-content: space-between;
+            width:100%;
+        }
+
+        .filter-button{
+            margin:auto;
+        }
         /* Information */
 
 
@@ -339,73 +409,108 @@
     #accomodations{
         display:flex;
         flex-direction: row;
+        margin: 0em 3em 0em;
     }
 
         /* Popular hotels */
 
         .popular-section{
-            max-width:30%;
             border-radius:20px;
-            margin: 0 auto 2em 0em;
-            order:2
+            margin: 0em 0em 2em 0em;
+            order:2;
+            width:35%;
+            height: max-content;
+        }
+
+        .popular-section .title-section{
+            margin: auto 2.5em 0.8em;
+            max-width:100%;
         }
 
         .popular-section .hotel-maps-section{
-            flex-flow:wrap;
+            flex-flow:row wrap;
             max-height:max-content;
+            margin:auto 2.5em auto;
         }
 
-        .hotel1{
-            height:9em;
-            max-height:auto;
-            flex-direction: row;
+        .popular-section .map{
+            height: 140px;
+            margin-bottom: 2em;
         }
 
-        .hotel1 .hotel-img{
-            position:relative;
+
+        .hotel1 .hotel-img{      
             width:40%;
-            height:60%;
-            border-bottom-left-radius: 0px;
-            border-top-right-radius: 15px;
+            height:100%;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 15px;
         }
 
         .hotel1 .hotel-text{
             width:60%;
-            height:max-content;
+            height:100%;
         }
+
+        .popular-section .hotel-rating{
+            margin-top:3em;
+        }
+        
 
         
 
         /* Marseille hotels */
 
         .marseille-section{
-            max-width: 60%;
+            width: 65%;
             order:1;
+            margin: 0 2em 2em 0em;
+            display:flex;
+            flex-flow: row wrap;
             justify-content: flex-start;
-            margin: 0 auto 2em 1.6em;
         }
 
         .marseille-section .title-section{
-            margin-left:2em;
+            margin: auto auto 0.8em 3em;
         }
 
         .marseille-section .hotel-maps-section{
-            margin: 0 2em 0;
+            margin: 0 3em 0;
             flex-direction: row;
             justify-content: space-between;
         }
 
         .marseille-section .map{
-            width:180px;
-            height:150px;
+            min-width:250px;
+            width:45%;
             margin: 0px 0px 20px;
         }
 
-        m
+        .more{
+            margin-top:1em;
+        }
+
+        
 
     /* Section2 */
 
+    #activities{
+        display:flex;
+        flex-direction: row;
+    }
+
         /* Activities */
+
+        .activities-section{
+            background-color: #ffffff;
+            border-radius: 0px;
+            margin:0em 3em 0em;
+
+        }
+        .activities-section .title-section{
+            margin: auto auto 0.8em 0em;
+        }
+
+
 
 
     /* Footer */
