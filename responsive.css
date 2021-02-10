@@ -504,15 +504,35 @@ h3{
             background-color: #ffffff;
             border-radius: 0px;
             margin:0em 3em 0em;
+            width:100%;
 
         }
         .activities-section .title-section{
             margin: auto auto 0.8em 0em;
         }
 
+        .activity-maps-section{
+            margin:0em;
+            max-height: 500px;
+            padding:0em;
+        
+        }
+
+        .activities-section .map{
+            margin: auto 0em 2em;
+            max-width:290px;
+            height:auto;
+        }
+
 
 
 
     /* Footer */
+
+    .footer{
+        justify-content: space-between;
+        padding-left:2em;
+        width:75%;
+    }
 
 }
