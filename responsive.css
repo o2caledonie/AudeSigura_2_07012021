@@ -174,13 +174,9 @@
 
         .marseille-section .map {
             display:block;
-            max-height: 14em;
             width: 320px;
           }
 
-        .marseille-section .hotel-img{
-            height:8.5em;
-        }
 
         .more{
             text-align: center;
@@ -202,22 +198,22 @@
         }
 
         .act-col1 , .act-col2, .act-col3, .act-col4{
-            height:27em;
+            height:max-content;
         }
 
 
         .activities-section .map{
             display:block;
-            max-height: 27em;
             width: 320px;
+            height:185px;
         }
 
-        .activity1 .activity-img{
-            height:22.1em;
+        .activity1 .map{
+            height:250px;
         }
 
-        .activity4 .activity-img{
-            height:22.1em;
+        .activity4 {
+            height:250px;
         }
 
     /* Footer */

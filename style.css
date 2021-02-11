@@ -458,24 +458,20 @@ li:hover{
 
   .activities-section .map{
     display: block;
-    max-height: 12em;
+    height: 185px;
     max-width: 321px;
     padding:0em;
   }
 
   .activity-img{
-    display:flex;
-    flex-flow:row wrap;
-    position:relative;
     width:100%;
-    height:9em;
+    height:75%;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     overflow:hidden;
   }
 
   .activity-name{
-    display:flex;
     width:100%;
     padding:0.9em 1.2em 0.7em;
   }
