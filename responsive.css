@@ -348,7 +348,7 @@ h3{
     }
 
 
-    .searchButton :before{
+    .searchButton ::before{
         content: "";
         display:block;
         clear:both;
@@ -626,5 +626,5 @@ h3{
         padding-left:2em;
         width:75%;
     }
-    
+
 }
