@@ -84,8 +84,7 @@ li:hover{
   .nav{
     display: flex;
     flex-flow: row wrap;
-    justify-content:stretch
-    width:100%;
+    justify-content:stretch;
     margin:20px 0px 0px;
   }
 
@@ -268,7 +267,7 @@ li:hover{
       display:inline-flex;
       background-color:#deebff;
       border:10px solid transparent;
-      padding:1em;
+      padding:0.8em;
       justify-content: center;
       align-items: center;
       border-radius: 70px;

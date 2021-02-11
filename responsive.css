@@ -52,34 +52,6 @@
 
 @media only screen and (min-width:764px){
  
-body{
-    font-size: smaller;
-}
-
-h1{
-    font-size: 19px;
-}
-
-h2{
-    font-size: 14px;
-}
-
-h3{
-    font-size: 12px;
-}
-
-h4{
-    font-size: medium;
-}
-
-li{
-font-size: 13px;
-}
-
-p{
-    font-size: 14px;
-}
-
     /* Header */
 
     .header{
@@ -110,6 +82,7 @@ p{
             order:3;
             width:max-content;
             padding-left:2em;
+            padding-right:0em;
         }
 
         .flex-item{
@@ -205,6 +178,10 @@ p{
             width: 320px;
           }
 
+        .marseille-section .hotel-img{
+            height:8.5em;
+        }
+
         .more{
             text-align: center;
         }
@@ -220,14 +197,27 @@ p{
         .activity-maps-section{
             display:flex;
             flex-flow:row wrap;
-            margin: 0em auto 0em;
-            justify-content: space-between;
+            margin: 0em 0em 0em;
+            justify-content: space-evenly;
         }
+
+        .act-col1 , .act-col2, .act-col3, .act-col4{
+            height:27em;
+        }
+
 
         .activities-section .map{
             display:block;
-            max-height: 14em;
+            max-height: 27em;
             width: 320px;
+        }
+
+        .activity1 .activity-img{
+            height:22.1em;
+        }
+
+        .activity4 .activity-img{
+            height:22.1em;
         }
 
     /* Footer */
@@ -237,6 +227,7 @@ p{
         justify-content: space-evenly;
         padding:0em 0em 0em;
         width:100%;
+    }
 
 }
 
@@ -277,24 +268,7 @@ p{
             justify-content: space-between;
         }
 
-        /* .popular-section .map{
-            width:280px;
-            height:150px;
-        }
-
-        .hotel1 .hotel-img{
-            position:relative;
-            width:40%;
-            height:100%;
-            border-bottom-left-radius: 15px;
-            border-top-right-radius: 0px;
-        }
-
-        .hotel1 .hotel-text{
-            width:60%;
-            height:100%;
-        } */
-
+    
         /* Marseille hotels */
 
         .marseille-section{
@@ -322,7 +296,6 @@ p{
         }
         
 
-
     /* Section2 */
 
         /* Activities */
@@ -339,17 +312,10 @@ p{
             flex-flow:row wrap;
             margin: 0em 3.5em 0em;
         }
-
-        .activities-section .map{
-            display:block;
-            max-height: 14em;
-            min-width: 280px;
-        }
-        
+    
     /* Footer */
 
 }
-
 
 @media screen and (min-width:1024px){
 
@@ -379,8 +345,30 @@ h3{
 
     .searchbox-container{
     margin:0.5em 3em 2em;
-
     }
+
+
+    .searchButton :before{
+        content: "";
+        display:block;
+        clear:both;
+        visibility:hidden;
+        font-size:0;
+        height:0;
+    }
+
+    .searchButton ::after{
+        content: "Rechercher";
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+    }
+
+    .searchButton{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+
         /* Searchbox */
 
         /* Filters */
@@ -394,8 +382,13 @@ h3{
         }
 
         .filters{
-            justify-content: space-between;
+            justify-content: space-evenly;
             width:100%;
+            max-width: 750px;
+        }
+
+        .filters_title{
+            margin-right:15px;
         }
 
         .filter-button{
@@ -409,6 +402,7 @@ h3{
     #accomodations{
         display:flex;
         flex-direction: row;
+        justify-content: space-between;
         margin: 0em 3em 0em;
     }
 
@@ -416,21 +410,23 @@ h3{
 
         .popular-section{
             border-radius:20px;
-            margin: 0em 0em 2em 0em;
+            margin: 0em;
             order:2;
-            width:35%;
+            max-width:28%;
+            min-width:340px;
             height: max-content;
+            padding-bottom: 0em;
         }
 
         .popular-section .title-section{
-            margin: auto 2.5em 0.8em;
+            margin: 0em 2em 0.8em;
             max-width:100%;
         }
 
         .popular-section .hotel-maps-section{
             flex-flow:row wrap;
             max-height:max-content;
-            margin:auto 2.5em auto;
+            margin:auto 2em auto;
         }
 
         .popular-section .map{
@@ -449,44 +445,49 @@ h3{
         .hotel1 .hotel-text{
             width:60%;
             height:100%;
+            padding-right:0.8em;
         }
 
-        .popular-section .hotel-rating{
-            margin-top:3em;
+        .hotel-rating{
+            margin-top: auto;
         }
-        
-
         
 
         /* Marseille hotels */
 
         .marseille-section{
-            width: 65%;
+            min-width: 60%;
             order:1;
-            margin: 0 2em 2em 0em;
+            margin: 0 2em 0em 0em;
             display:flex;
             flex-flow: row wrap;
             justify-content: flex-start;
         }
 
         .marseille-section .title-section{
-            margin: auto auto 0.8em 3em;
+            margin: 0em 2em 0.8em ;
+            display: flex;
+            align-items: flex-end;
+            height:39px;
         }
 
         .marseille-section .hotel-maps-section{
-            margin: 0 3em 0;
+            margin: 0 2em 0;
             flex-direction: row;
             justify-content: space-between;
         }
 
         .marseille-section .map{
-            min-width:250px;
-            width:45%;
+            width:46%;
             margin: 0px 0px 20px;
         }
 
+        .marseille-section .hotel-img{
+            height:7em;
+        }
+
         .more{
-            margin-top:1em;
+            margin:0em auto 0em 2em;
         }
 
         
@@ -505,27 +506,17 @@ h3{
             border-radius: 0px;
             margin:0em 3em 0em;
             width:100%;
-
         }
+
         .activities-section .title-section{
             margin: auto auto 0.8em 0em;
         }
 
         .activity-maps-section{
-            margin:0em;
-            max-height: 500px;
+            margin:auto;
             padding:0em;
-        
+            width:85%;
         }
-
-        .activities-section .map{
-            margin: auto 0em 2em;
-            max-width:290px;
-            height:auto;
-        }
-
-
-
 
     /* Footer */
 
@@ -534,5 +525,106 @@ h3{
         padding-left:2em;
         width:75%;
     }
+
+}
+
+@media only screen and (min-width:1200px){
+
+    /* Header */
+
+    
+        /* Nav */
+
+        /* Search */
+
+            /* Searchbox */
+
+            /* Filters */
+
+            .filters{
+                max-width: 750px;
+            }
+
+            /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+        
+
+        /* Marseille hotels */
+
+        .marseille-section{
+            margin-bottom: 0em;
+        }
+
+        .marseille-section .title-section{
+            margin-bottom: 0em;
+        }
+
+        .marseille-section .map{
+            width:30%;
+            min-width: 201px;
+            margin: 0px 0px 20px;
+            max-height: 185px;
+        }
+
+        .marseille-section .hotel-img{
+            height:7em;
+        }
+
+        .marseille-section .hotel-text{
+            height:min-content;
+        }
+
+        .more{
+            margin-top:0.5em;
+        }
+
+    /* Section2 */
+
+        /* Activities */
+
+
+
+        .activity-maps-section{
+            margin: auto 0em auto;
+            width:100%;
+            justify-content: space-between;
+            align-content:stretch;
+            align-items: stretch;
+            height:350px;         
+        }
+
+        .activities-section .map{
+            width:250px;
+            margin-bottom:25px;          
+        }
+
+        .activity1 .activity-img{
+            height:19.5em;
+        }
+
+        .activity4 .activity-img{
+            height:19.5em;
+        }
+
+        .activity3 .activity-img{
+            height:6em;
+        }
+
+        .activity5 .activity-img{
+            height:7.5em;
+        }
+
+        .activity6 .activity-img{
+            height:7.5em;
+        }
+     
+    
+
+    /* Footer */
+
 
 }
