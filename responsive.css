@@ -1,0 +1,722 @@
+@media only screen and (min-width:565px){
+ 
+
+h3{
+    font-size: 13.5px;
+}
+
+h4{
+    font-size: 12px;
+}
+
+    /* Header */
+
+    
+        /* Nav */
+
+        /* Search */
+
+            /* Searchbox */
+
+            /* Filters */
+    
+
+            /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+
+        .popular-section{
+            max-width:414px;
+            border-radius:20px;
+            margin: auto;
+        }
+
+        .title-section{
+            max-width:max-content;
+        }
+
+        .icon-chart{
+            padding-left:2em;
+        }
+        
+
+        /* Marseille hotels */
+
+        .marseille-section .hotel-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em;
+            justify-content: space-between;
+        }
+
+        .marseille-section .map {
+            display:block;
+            width: 250px;
+          }
+
+        
+        .more{
+        text-align: center;
+        }
+
+
+    /* Section2 */
+
+        /* Activities */
+
+        .activity-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em auto 0em;
+            justify-content: space-evenly;
+        }
+
+        .activities-section .map{
+            display:block;
+            width: 235px;
+            height:max-content;
+        }
+
+        .activity-img {
+            height:95px;
+        }
+
+        .activity1 .activity-img{
+            height:250px;
+        }
+
+        .activity4 .activity-img{
+            height:250px;
+        }
+
+
+    /* Footer */
+
+    .footer{
+        width:320px;
+        padding-left:3em;
+}
+
+
+@media only screen and (min-width:764px){
+
+h3{
+    font-size: 14px;
+}
+
+h4{
+    font-size: 13px;
+}
+
+    /* Header */
+
+    .header{
+        padding: 1em auto 1em;
+    }
+
+        /* Nav */
+
+        .nav{
+            flex-flow:row;
+            justify-content: flex-end;
+            align-items: center;
+            margin:1.6em 1.6em 0em;
+    
+        }
+
+        .flex-home{
+            width:100%;
+            padding-left:0em;
+        }
+
+        .items{
+            order:2;
+            width:max-content;
+        }
+
+        .flex-sign{
+            order:3;
+            width:max-content;
+            padding-left:2em;
+            padding-right:0em;
+        }
+
+        .flex-item{
+            padding:auto;
+            width:max-content;
+            padding:2em 2em 2em;
+            border-bottom:none;
+        }
+
+        .flex-item:first-child{
+            border-top:2px solid #0065fc;
+            border-bottom: none;
+        }
+
+        .flex-item:hover{
+            border-bottom:none;
+            border-top:2px solid #0065fc;
+            color:#0065fc;
+          }
+
+
+        /* Search */
+
+            /* Searchbox */
+
+            /* Filters */
+
+            .filters_title{
+                font-size: 1.1em;
+            }
+    
+            /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+
+        .popular-section{
+            max-width:100%;
+            border-radius: 0;
+            padding: 2em 6% 1.8em;  
+        }
+
+        .popular-section .title-section{
+            max-width: 280px;
+        }
+
+        .popular-section .hotel-maps-section{
+            display:flex;
+            flex-flow: column wrap;
+            margin: 0em;
+            max-height:358px;
+            justify-content: space-between;
+        }
+
+        .map{
+            width:320px;
+        }
+
+        .hotel1{
+            height:285px;
+            max-height: max-content;
+            flex-flow: row wrap;
+        }
+
+        .hotel1 .hotel-img{
+            position:relative;
+            width:100%;
+            height:60%;
+            border-bottom-left-radius: 0px;
+            border-top-right-radius: 15px;
+        }
+
+        .hotel1 .hotel-text{
+            width:max-content;
+            height:max-content;
+        }
+
+        /* Marseille hotels */
+
+
+
+        .marseille-section .map {
+          
+            width: 320px;
+          }
+
+
+
+    /* Section2 */
+
+        /* Activities */
+
+
+        /* .activity-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em 0em 0em;
+            justify-content: space-evenly;
+        } */
+
+        .activities-section .map{
+            /* display:block; */
+            width: 320px;
+            /* height:max-content; */
+        }
+
+        .activity-img {
+            height:145px;
+        }
+
+        .activity1 .activity-img{
+            height:351px;
+        }
+
+        .activity4 .activity-img{
+            height:351px;
+        }
+
+    /* Footer */
+
+    .footer{
+        display: flex;
+        justify-content: space-evenly;
+        padding:0em 0em 0em;
+        width:100%;
+    }
+
+}
+
+@media screen and (min-width:900px){
+
+    /* Header */
+
+    /* Nav */
+
+    .flex-sign{
+        justify-content:center;
+    }
+
+    /* Search */
+
+        /* Searchbox */
+
+        /* Filters */
+
+        /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+
+        .popular-section{
+            border-radius: 20px;
+            margin: 2em 1.6em 2em;
+            padding:2em 0em 1.8em;
+        }
+
+        .popular-section .hotel-maps-section{
+            display:flex;
+            /* flex-flow: row wrap; */
+            margin: 0em 3.5em 0em;
+            max-height:358px;
+            justify-content: space-between;
+        }
+
+    
+        /* Marseille hotels */
+
+        .marseille-section{
+            background-color: #f2f2f2;
+            border-radius: 20px;
+            margin: 2em 1.6em 2em;
+            padding:2em 0em 1.8em;
+        }
+
+        .marseille-section .hotel-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            justify-content: space-between;
+            margin: 0em 3.5em 0em;
+        }
+
+        .marseille-section .map {
+            display: block;
+            height:auto;
+            width:320px;
+          }
+
+        .marseille-section .hotel-img{
+            height:8.5em;
+        }
+        
+
+    /* Section2 */
+
+        /* Activities */
+
+        .activities-section {
+            background-color: #f2f2f2;
+            border-radius: 20px;
+            margin: 2em 1.6em 2em;
+            padding:2em 0em 1.8em;
+        }
+
+        .activity-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em 3.5em 0em;
+        }
+    
+    /* Footer */
+
+}
+
+@media screen and (min-width:1024px){
+
+
+
+h3{
+    font-size: 13.5px;
+}
+
+h4{
+    font-size: 12px;
+} 
+   
+    /* Header */
+
+
+    /* Nav */
+
+    .nav{
+        margin:2em 3em 0em;
+    }
+    
+
+    /* Search */
+
+    .searchbox-container{
+    margin:0.5em 3em 2em;
+    }
+
+
+    .searchButton ::before{
+        content: "";
+        display:block;
+        clear:both;
+        visibility:hidden;
+        font-size:0;
+        height:0;
+    }
+
+    .searchButton ::after{
+        content: "Rechercher";
+        font-family: 'Raleway', sans-serif;
+        font-weight: 600;
+    }
+
+    .searchButton{
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+
+        /* Searchbox */
+
+        /* Filters */
+
+        .filters-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-content: stretch;
+            max-width:80%;
+        }
+
+        .filters{
+            justify-content: space-evenly;
+            width:100%;
+            max-width: 750px;
+        }
+
+        .filters_title{
+            margin-right:15px;
+        }
+
+        .filter-button{
+            margin:auto;
+        }
+        /* Information */
+
+
+    /* Section 1 */
+
+    #accomodations{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0em 3em 0em;
+    }
+
+        /* Popular hotels */
+
+        .popular-section{
+            border-radius:20px;
+            margin: 0em;
+            order:2;
+            max-width:28%;
+            min-width:340px;
+            height: max-content;
+            padding-bottom: 0em;
+        }
+
+        .popular-section .title-section{
+            margin: 0em 2em 0.8em;
+            max-width:100%;
+        }
+
+        .popular-section .hotel-maps-section{
+            flex-flow:row wrap;
+            max-height:max-content;
+            margin:auto 2em auto;
+        }
+
+        .popular-section .map{
+            height: 140px;
+            margin-bottom: 2em;
+        }
+
+
+        .hotel1 .hotel-img{      
+            width:40%;
+            height:100%;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 15px;
+        }
+
+        .hotel1 .hotel-text{
+            width:60%;
+            height:100%;
+            padding-right:0.8em;
+        }
+
+        .hotel-rating{
+            margin-top: auto;
+        }
+        
+
+        /* Marseille hotels */
+
+        .marseille-section{
+            min-width: 60%;
+            order:1;
+            margin: 0 2em 0em 0em;
+            display:flex;
+            flex-flow: row wrap;
+            justify-content: flex-start;
+        }
+
+        .marseille-section .title-section{
+            margin: 0em 2em 0.8em ;
+            display: flex;
+            align-items: flex-end;
+            height:39px;
+        }
+
+        .marseille-section .hotel-maps-section{
+            margin: 0 2em 0;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+
+        .marseille-section .map{
+            width:46%;
+            margin: 0px 0px 20px;
+        }
+
+        .marseille-section .hotel-img{
+            height:7em;
+        }
+
+        .more{
+            margin:0em auto 0em 2em;
+        }
+
+        
+
+    /* Section2 */
+
+    #activities{
+        display:flex;
+        flex-direction: row;
+    }
+
+        /* Activities */
+
+        .activities-section{
+            background-color: #ffffff;
+            border-radius: 0px;
+            margin:2em 3em 0em;
+            width:100%;
+        }
+
+        .activities-section .title-section{
+            margin: auto auto 0.8em 0em;
+        }
+
+        .activity-maps-section{
+            margin:auto;
+            padding:0em;
+            width:100%;
+            justify-content:space-between;
+        }
+
+        .activities-section .map{
+            width:225px;
+        }
+
+        .activity-img{
+            height:110px;
+        }
+
+        .activity1 .activity-img{
+            height:280px;
+        }
+
+        .activity4 .activity-img{
+            height:280px;
+        }
+
+    /* Footer */
+
+    .footer{
+        justify-content: flex-start;
+        padding-left:1.1em;
+        width:100%;
+    }
+
+    .list{
+        margin-right:130px;
+    }
+
+
+}
+
+@media only screen and (min-width:1200px){
+
+    h3{
+        font-size: 14.5px;
+    }
+    
+    h4{
+        font-size: 13px;
+    }
+
+    /* Header */
+
+    
+        /* Nav */
+
+        /* Search */
+
+            /* Searchbox */
+
+            /* Filters */
+
+            .filters{
+                max-width: 750px;
+            }
+
+            /* Information */
+
+
+    /* Section 1 */
+
+        /* Popular hotels */
+        
+
+        /* Marseille hotels */
+
+        .marseille-section{
+            margin-bottom: 0em;
+        }
+
+        .marseille-section .title-section{
+            margin-bottom: 0em;
+        }
+
+        .marseille-section .map{
+            width:30%;
+            min-width: 201px;
+            margin: 0px 0px 20px;
+            max-height: 185px;
+        }
+
+        .marseille-section .hotel-img{
+            height:7em;
+        }
+
+        .marseille-section .hotel-text{
+            height:min-content;
+        }
+
+        .more{
+            margin-top:0.5em;
+        }
+
+    /* Section2 */
+
+        /* Activities */
+
+
+
+        .activity-maps-section{
+            margin: auto 0em auto;
+            width:100%;
+            justify-content: space-between;
+            /* align-content:stretch;
+            align-items: stretch; */
+            height:fit-content;         
+        }
+
+        .activities-section .map{
+            width:250px;
+            margin-bottom:25px;          
+        }
+
+        .activity1 .activity-img{
+            height:300px;
+        }
+
+        .activity2 .activity-img{
+            height:144px;
+        }
+
+        .activity3 .activity-img{
+            height:90px;
+        }
+
+        .activity4 .activity-img{
+            height:300px;
+        }
+
+        .activity5 .activity-img{
+            height:117px;
+        }
+
+        .activity6 .activity-img{
+            height:117px;
+        }
+       
+
+    /* Footer */
+
+    .list{
+        margin-right:220px;
+    }
+
+}
+
+@media only screen and (min-width:1400px){
+
+    .container{
+        margin:auto;
+        width:1390px;
+    }
+
+    .footer{
+        width:1300px;
+        margin:auto;
+        padding:0;
+    }
+
+}
+
