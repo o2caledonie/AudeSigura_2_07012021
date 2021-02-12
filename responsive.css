@@ -98,8 +98,9 @@ h4{
     .footer{
         width:320px;
         padding-left:3em;
-}
+    }
 
+}
 
 @media only screen and (min-width:764px){
 
@@ -361,8 +362,6 @@ h4{
 
 @media screen and (min-width:1024px){
 
-
-
 h3{
     font-size: 13.5px;
 }
@@ -387,7 +386,6 @@ h4{
     margin:0.5em 3em 2em;
     }
 
-
     .searchButton ::before{
         content: "";
         display:block;
@@ -407,7 +405,6 @@ h4{
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px;
     }
-
 
         /* Searchbox */
 
@@ -529,8 +526,7 @@ h4{
         .more{
             margin:0em auto 0em 2em;
         }
-
-        
+     
 
     /* Section2 */
 
@@ -656,14 +652,10 @@ h4{
 
         /* Activities */
 
-
-
         .activity-maps-section{
             margin: auto 0em auto;
             width:100%;
             justify-content: space-between;
-            /* align-content:stretch;
-            align-items: stretch; */
             height:fit-content;         
         }
 
