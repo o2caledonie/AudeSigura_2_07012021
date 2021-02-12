@@ -1,11 +1,11 @@
 @media only screen and (min-width:565px){
  
 
-h2{
+h3{
     font-size: 13.5px;
 }
 
-h3{
+h4{
     font-size: 12px;
 }
 
@@ -96,18 +96,18 @@ h3{
     /* Footer */
 
     .footer{
-        padding-left:80px;
-    }
-
+        width:320px;
+        padding-left:3em;
 }
+
 
 @media only screen and (min-width:764px){
 
-h2{
+h3{
     font-size: 14px;
 }
 
-h3{
+h4{
     font-size: 13px;
 }
 
@@ -363,11 +363,11 @@ h3{
 
 
 
-h2{
+h3{
     font-size: 13.5px;
 }
 
-h3{
+h4{
     font-size: 12px;
 } 
    
@@ -577,16 +577,26 @@ h3{
 
     /* Footer */
 
+    .footer{
+        justify-content: flex-start;
+        padding-left:1.1em;
+        width:100%;
+    }
+
+    .list{
+        margin-right:130px;
+    }
+
 
 }
 
 @media only screen and (min-width:1200px){
 
-    h2{
+    h3{
         font-size: 14.5px;
     }
     
-    h3{
+    h4{
         font-size: 13px;
     }
 
@@ -685,42 +695,28 @@ h3{
         .activity6 .activity-img{
             height:117px;
         }
-     
-    
+       
 
     /* Footer */
 
-    .footer{
-        justify-content: space-between;
-        padding-left:2em;
-        width:75%;
+    .list{
+        margin-right:220px;
     }
 
 }
 
-@media only screen and (min-width:1300px){
+@media only screen and (min-width:1400px){
 
     .container{
         margin:auto;
-        width:1300px;
+        width:1390px;
     }
 
-    
     .footer{
-        padding-left:2.5em;
+        width:1300px;
+        margin:auto;
+        padding:0;
     }
 
-   
-
-
 }
 
-@media only screen and (min-width:1500px){
-
-.footer{
-    justify-content: space-evenly;
-    width:100%;
-    
-}
-
-}
