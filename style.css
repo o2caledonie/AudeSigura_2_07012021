@@ -51,10 +51,8 @@ p{
 }
 
 ul{
-  font-weight:800;
-  font-size:large;
-  padding-left:0;
-  margin:20px auto 40px;
+  margin:0 0 40px;
+  padding:0;
 }
 
 li{
@@ -483,10 +481,13 @@ li:hover{
 
 footer{
   background-color: #f2f2f2;
-  padding:2em 1.8em 1em;
+  padding:3em 1.8em 1em;
 }
 
 .h-footer{
+  font-weight:800;
+  font-size:large;
+  padding-left:0;
   margin-bottom:20px;
 }
 
