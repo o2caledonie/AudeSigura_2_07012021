@@ -1,5 +1,14 @@
-@media only screen and (min-width:480px){
+@media only screen and (min-width:565px){
  
+
+h2{
+    font-size: 13.5px;
+}
+
+h3{
+    font-size: 12px;
+}
+
     /* Header */
 
     
@@ -36,10 +45,52 @@
 
         /* Marseille hotels */
 
+        .marseille-section .hotel-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em;
+            justify-content: space-between;
+        }
+
+        .marseille-section .map {
+            display:block;
+            width: 250px;
+          }
+
+        
+        .more{
+        text-align: center;
+        }
+
 
     /* Section2 */
 
         /* Activities */
+
+        .activity-maps-section{
+            display:flex;
+            flex-flow:row wrap;
+            margin: 0em auto 0em;
+            justify-content: space-evenly;
+        }
+
+        .activities-section .map{
+            display:block;
+            width: 235px;
+            height:max-content;
+        }
+
+        .activity-img {
+            height:95px;
+        }
+
+        .activity1 .activity-img{
+            height:250px;
+        }
+
+        .activity4 .activity-img{
+            height:250px;
+        }
 
 
     /* Footer */
@@ -51,7 +102,15 @@
 }
 
 @media only screen and (min-width:764px){
- 
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 13px;
+}
+
     /* Header */
 
     .header{
@@ -165,55 +224,42 @@
         /* Marseille hotels */
 
 
-        .marseille-section .hotel-maps-section{
-            display:flex;
-            flex-flow:row wrap;
-            margin: 0em;
-            justify-content: space-between;
-        }
 
         .marseille-section .map {
-            display:block;
+          
             width: 320px;
           }
 
 
-        .more{
-            text-align: center;
-        }
 
     /* Section2 */
 
         /* Activities */
 
-        .activities-section .title-section{
-            justify-content: center;
-        }
 
-        .activity-maps-section{
+        /* .activity-maps-section{
             display:flex;
             flex-flow:row wrap;
             margin: 0em 0em 0em;
             justify-content: space-evenly;
-        }
-
-        .act-col1 , .act-col2, .act-col3, .act-col4{
-            height:max-content;
-        }
-
+        } */
 
         .activities-section .map{
-            display:block;
+            /* display:block; */
             width: 320px;
-            height:185px;
+            /* height:max-content; */
         }
 
-        .activity1 .map{
-            height:250px;
+        .activity-img {
+            height:145px;
         }
 
-        .activity4 {
-            height:250px;
+        .activity1 .activity-img{
+            height:351px;
+        }
+
+        .activity4 .activity-img{
+            height:351px;
         }
 
     /* Footer */
@@ -315,17 +361,15 @@
 
 @media screen and (min-width:1024px){
 
-/* h1{
-    font-size: 17px;
-}
+
 
 h2{
-    font-size: 13px;
+    font-size: 13.5px;
 }
 
 h3{
-    font-size: 10px;
-} */
+    font-size: 12px;
+} 
    
     /* Header */
 
@@ -500,7 +544,7 @@ h3{
         .activities-section{
             background-color: #ffffff;
             border-radius: 0px;
-            margin:0em 3em 0em;
+            margin:2em 3em 0em;
             width:100%;
         }
 
@@ -511,7 +555,24 @@ h3{
         .activity-maps-section{
             margin:auto;
             padding:0em;
-            width:85%;
+            width:100%;
+            justify-content:space-between;
+        }
+
+        .activities-section .map{
+            width:225px;
+        }
+
+        .activity-img{
+            height:110px;
+        }
+
+        .activity1 .activity-img{
+            height:280px;
+        }
+
+        .activity4 .activity-img{
+            height:280px;
         }
 
     /* Footer */
@@ -520,6 +581,14 @@ h3{
 }
 
 @media only screen and (min-width:1200px){
+
+    h2{
+        font-size: 14.5px;
+    }
+    
+    h3{
+        font-size: 13px;
+    }
 
     /* Header */
 
@@ -583,9 +652,9 @@ h3{
             margin: auto 0em auto;
             width:100%;
             justify-content: space-between;
-            align-content:stretch;
-            align-items: stretch;
-            height:350px;         
+            /* align-content:stretch;
+            align-items: stretch; */
+            height:fit-content;         
         }
 
         .activities-section .map{
@@ -594,23 +663,27 @@ h3{
         }
 
         .activity1 .activity-img{
-            height:19.5em;
+            height:300px;
         }
 
-        .activity4 .activity-img{
-            height:19.5em;
+        .activity2 .activity-img{
+            height:144px;
         }
 
         .activity3 .activity-img{
-            height:6em;
+            height:90px;
+        }
+
+        .activity4 .activity-img{
+            height:300px;
         }
 
         .activity5 .activity-img{
-            height:7.5em;
+            height:117px;
         }
 
         .activity6 .activity-img{
-            height:7.5em;
+            height:117px;
         }
      
     
@@ -622,5 +695,32 @@ h3{
         padding-left:2em;
         width:75%;
     }
+
+}
+
+@media only screen and (min-width:1300px){
+
+    .container{
+        margin:auto;
+        width:1300px;
+    }
+
+    
+    .footer{
+        padding-left:2.5em;
+    }
+
+   
+
+
+}
+
+@media only screen and (min-width:1500px){
+
+.footer{
+    justify-content: space-evenly;
+    width:100%;
+    
+}
 
 }
