@@ -117,7 +117,6 @@ li:hover{
 
   .items{
       display:flex;
-      flex-wrap: row wrap;
       justify-content: center;
       width:100%;
       order:3;
@@ -277,7 +276,6 @@ li:hover{
 
     .filter-icon .fas{
       color:#0065fc;
-      font-size: 1em;
     }
 
     .filter-text{
@@ -341,17 +339,13 @@ li:hover{
     font-size: 1.8em;
   }
 
- 
-
   .map{
     display:flex;
     background-color:#ffffff;
     border-radius:20px;
     padding:0.4em;
     margin:auto;
-    margin-bottom:20px;
-    -webkit-box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212); 
-    -moz-box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212);  
+    margin-bottom:20px;  
     box-shadow:3px 3px 5px 6px rgba(204, 204, 204, 0.212);  
     height:132.5px;
     max-width: 320px;
