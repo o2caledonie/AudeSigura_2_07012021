@@ -207,14 +207,14 @@ h4{
         .hotel1 .hotel-img{
             position:relative;
             width:100%;
-            height:60%;
+            height:70%;
             border-bottom-left-radius: 0px;
             border-top-right-radius: 15px;
         }
 
         .hotel1 .hotel-text{
-            width:max-content;
-            height:max-content;
+            width:100%;
+            height:30%;
         }
 
         /* Marseille hotels */
